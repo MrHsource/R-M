@@ -1,0 +1,35 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to right, rgb(255, 255, 255), rgb(149, 146, 163))
+}
+.grid-item1 {
+    padding-left: 50px; /*Alt som er innen for grid-item1 blir flyttet 50 pixler it venstre*/
+    margin-bottom: 60px; /*Margin bottom er avstanden mellom grid-item1 og grid-item2*/
+}
+.circle-with-text {
+  background-color: rgb(119, 119, 119);
+  height: 300px;
+  width: 300px;     /* match height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+}
+
+button {
+    background-color: rgb(119, 119, 119);
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 30px;
+    border-radius: 12px;
+}
